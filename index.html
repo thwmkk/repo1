@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Аниме Evangelion</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mobile.css" media="only screen and (max-device-width:480px)">
+  <style>
+    @media (min-width: 1025px) {
+      /* Добавьте стили для десктопов */
+    }
+
+    /* Стили для планшетов */
+    @media (min-width: 601px) and (max-width: 1024px) {
+      /* Добавьте стили для планшетов */
+    }
+
+    /* Стили для мобильных устройств */
+    @media (max-width: 600px) {
+      font-size: : 14px;
+    }
+  </style>
+</head>
+
+<style>
+body {
+  background-image: url('evaimg.jpg');
+  font-family: Georgia, sans-serif;
+  background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+  }
+  p {
+      font-size: 18px;
+    }
+    .character-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px;
+  margin: 5px;
+}
+
+.character-content {
+  flex: 1;
+}
+
+.character-image {
+  margin-top: 5px;
+}
+
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.character-card .character-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.character-card h3 {
+  text-align: center;
+}
+
+.character-card p {
+  text-align: center;
+}
+header h1, h2 {
+    color: #ffffff ;
+    position: relative;
+    -webkit-text-stroke: 0.7px rgb(66, 110, 144);
+    text-shadow: none;
+    font-weight: bold;
+  }
+.episodes {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px;
+  margin: 5px;
+}
+.plot-card {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px;
+  margin: 5px;
+}
+.about {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px;
+  margin: 5px;
+}
+
+
+  </style>
+  
+  <body>
+  <header>
+    <h1>Аниме Evangelion</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">О сериале</a></li>
+        <li><a href="#characters">Персонажи</a></li>
+        <li><a href="#episodes">Эпизоды</a></li>
+        <li><a href="#plot">Сюжет</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>О сериале</h2>
+    <div class="about">
+    <p>«Евангелион» (яп. 新世紀エヴァンゲリオン Синсэйки Эвангэрион, букв. «Евангелие нового столетия», международное название — Neon Genesis Evangelion), или сокращённо «Ева», — аниме-сериал в жанре «меха», снятый режиссёром Хидэаки Анно на студии Gainax и выходивший с 4 октября 1995 по 27 марта 1996 года. Сценарий написан шестью сценаристами. Сопродюсерами сериала выступили TV Tokyo и Nihon Ad Systems (NAS). Впоследствии выходило множество произведений по мотивам франшизы, таких как аниме, игры и манга.</p>
+  </div></section>
+  <section id="characters">
+    <h2>Персонажи</h2>
+  
+    <div class="character-grid">
+      <div class="character-card">
+        <div class="character-content">
+          <h3><span>Синдзи Икари</span></h3>
+          <p>Главный герой сериала, пилот Евангелиона под номером 01. Он неуверенный в себе подросток, которому предстоит
+            столкнуться со своими страхами и принять решения, способные изменить ход битвы.</p>
+        </div>
+        <div class="character-image">
+          <img src="shinji.png" alt="Shinji Ikari" style="max-width: 100%; max-height: 100%; width: auto; height: auto;">
+        </div>
+      </div>
+  
+      <div class="character-card">
+        <div class="character-content">
+          <h3><span>Рей Аянами</span></h3>
+          <p>Первое дитя и назначенный пилот Евангелиона: Модуля-00. Асоциальная и эмоционально холодная девочка, психологически привязанная к людям через вещи (на примере собственной Евы и треснутых очков командующего Nerv).</p>
+        </div>
+        <div class="character-image">
+          <img src="rei.jpg" alt="Rei Ayanami" style="max-width: 100%; max-height: 100%; width: auto; height: auto;">
+        </div>
+      </div>
+  
+      <div class="character-card">
+        <div class="character-content">
+          <h3><span>Аска Лэнгли Сорью</span></h3>
+          <p>Второе дитя и назначенный пилот Евангелиона: Модуля-02. По сюжету, сформированный к четырнадцати годам комплекс неполноценности и истероидное расстройство личности доставляют девочке разнообразные психические проблемы.</p>
+        </div>
+        <div class="character-image">
+          <img src="asuka.jpg" alt="Asuka Langley" style="max-width: 100%; max-height: 100%; width: auto; height: auto;">
+        </div>
+      </div>
+  
+      <div class="character-card">
+        <div class="character-content">
+          <h3><span>Мисато Кацураги</span></h3>
+          <p>Командир тактических операций Nerv и опекун Синдзи. Мисато скрывает личные проблемы, чтобы победить Ангелов и открыть секреты второго удара и Токио-3.</p>
+        </div>
+        <div class="character-image">
+          <img src="misato.jpg!d" alt="Misato Katsuragi" style="max-width: 100%; max-height: 100%; width: auto; height: auto;">
+        </div>
+      </div>
+  
+      <div class="character-card">
+        <div class="character-content">
+          <h3><span>Каору Нагиса</span></h3>
+          <p>Семнадцатый Ангел и пятое дитя. Хотя Каору относят к Ангелам, он более похож на Рей Аянами — семя жизни в человеческом теле. Несмотря на человеческое тело, Каору, видимо, не считает себя человеком, поскольку называет остальных людей «Лилин».</p>
+        </div>
+        <div class="character-image">
+          <img src="kaworu.png" alt="Kaworu Nagisa" style="max-width: 100%; max-height: 100%; width: auto; height: auto;">
+        </div>
+      </div>
+      <div class="character-card">
+        <div class="character-content">
+          <h3><span>Рицуко Акаги</span></h3>
+          <p>Руководитель проекта «E» и главный учёный Nerv. Рицуко — давняя и близкая подруга Мисато, но несмотря на это, они с командующим явно что-то скрывают.</p>
+        </div>
+        <div class="character-image">
+          <img src="ritsuko.jpg" alt="Ritsuko Akagi" style="max-width: 100%; max-height: 100%; width: auto; height: auto;">
+        </div>
+      </div>
+      <div class="character-card">
+        <div class="character-content">
+          <h3><span>Гэндо Икари</span></h3>
+          <p>Командующий Nerv и отец Синдзи. Его истинная цель — воссоединение с Юи, и ничто не может остановить Гэндо в её осуществлении.</p>
+        </div>
+        <div class="character-image">
+          <img src="gendo.jpg" alt="Gendo Ikari" style="max-width: 100%; max-height: 100%; width: auto; height: auto;">
+        </div>
+      </div>
+      <div class="character-card">
+        <div class="character-content">
+          <h3><span>Рёдзи Кадзи</span></h3>
+          <p>Тройной агент и бывший любовник Мисато. Кадзи ведёт опасную игру, работая на Nerv, Seele и японское правительство. А всё для того, чтобы открыть для себя настоящую правду.</p>
+        </div>
+        <div class="character-image">
+          <img src="kaji.jpg" alt="Ryoji Kaji" style="max-width: 100%; max-height: 100%; width: auto; height: auto;">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="episodes">
+    <h2>Эпизоды</h2>    
+    <div class="episodes">
+    <ul>
+      <li>Эпизод 01 - Нападение Ангела (Angel Attack)</li>
+      <li>Эпизод 02 - Зверь (The Beast)</li>
+      <li>Эпизод 03 - Перевод (A Transfer)</li>
+      <li>Эпизод 04 - Дилемма дикобразов (Hedgehog's Dilemma)</li>
+      <li>Эпизод 05 - Рэй I (Rei I)</li>
+      <li>Эпизод 06 - Рэй II (Rei II)</li>
+      <li>Эпизод 07 - Созданный людьми (A Human Work)</li>
+      <li>Эпизод 08 - Аска наносит удар! (Asuka Strikes!)</li>
+      <li>Эпизод 09 - Вы двое, танцуйте, если хотите победить! (Both of You, Dance Like You Want to Win!)</li>
+      <li>Эпизод 10 - Погружение в магму (Magmadiver)</li>
+      <li>Эпизод 11 - День, когда Токио-3 замер (The Day Tokyo-3 Stood Still)[</li>
+      <li>Эпизод 12 - Не заставляй других страдать из-за твоей ненависти, — сказала она (She said, «Don’t make others suffer for your personal hatred»)</li>
+      <li>Эпизод 13 - Мелкая неприятность (Lilliputian Hitcher)</li>
+      <li>Эпизод 14 - Ткань повествования (Weaving a Story)</li>
+      <li>Эпизод 15 - Эти женщины тянулись к губам других и сами открывались для поцелуя (Those women longed for the touch of others' lips, and thus invited their kisses.)</li>
+      <li>Эпизод 16 - Раздвоение души (Splitting of the Breast)</li>
+      <li>Эпизод 17 - Четвёртое дитя (Fourth Children)</li>
+      <li>Эпизод 18 - Противоположность (Ambivalence)</li>
+      <li>Эпизод 19 - Интроекция (Introjection)</li>
+      <li>Эпизод 20 - Ткань повествования - рассказ (Weaving a Story 2: Oral Stage)</li>
+      <li>Эпизод 21 - Он понимал, что он ещё ребёнок (He was aware that he was still a child)</li>
+      <li>Эпизод 22 - Не будь (Don't Be)</li>
+      <li>Эпизод 23 - Рэй III (Rei III)</li>
+      <li>Эпизод 24 - Начало и конец, или «Достучаться до небес» (The Beginning and the End, or "Knockin' on Heaven's Door")</li>
+      <li>Эпизод 25 - Ты любишь меня? (Do You Love Me?)</li>
+      <li>Эпизод 26 - Береги себя (Take Care of Yourself.)</li>
+    </ul></div>
+  </section>
+
+  <section id="plot">
+    <h2>Сюжет</h2>
+    <div class="plot-card">
+      <p>2015 год. Прошло 15 лет после загадочного катаклизма под названием Второй удар, который навсегда изменил жизнь на Земле. Согласно официальной версии, в Антарктиде упал метеорит, ледники моментально растаяли, а уровень Мирового океана повысился. Вдобавок произошел наклон земной оси, в итоге цунами и землетрясения разрушили многие города и убили более двух миллиардов человек. Дело не ограничилось природными катастрофами. Свою лепту внесли и люди. Начался миграционный кризис, всемирный голод и ядерная война, в которой вновь от бомбы пострадала Япония. После этого люди вроде бы смогли договориться и начали потихоньку восстанавливать привычную жизнь.</p>
+    </div>
+      <img src="eva.jpg" alt="Evangelion" style="max-width: 100%; max-height: 100%; width: auto; height: auto;">
+      <div class="plot-card">
+      <p>Таким знает мир Синдзи Икари — 14-летний подросток, которого в Токио-3 вызывает отец Гэндо. После смерти жены он оставил ребенка, а теперь руководит загадочной организацией NERV, которая создана для защиты людей от монстров, названных Ангелами. Они без очевидных причин и внятного объяснения нападают на Землю. Для борьбы созданы Евангелионы — огромные киборги, с которыми могут синхронизироваться лишь подростки. Синдзи, возможно, последняя надежда человечества: мальчик должен управлять Евой и защищать людей от Ангелов. Только вот избранник в этом не особо заинтересован: ему хочется узнать, почему папа бросил его, а еще сбежать куда подальше.</p>
+    </div>
+  </section>
+
+</body>
+
+</html>
